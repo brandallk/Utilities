@@ -2,7 +2,7 @@ package utilities
 
 type IntSlice []int
 
-func (s1 IntSlice) IsEqual(s2 IntSlice) bool {
+func (s1 IntSlice) IsEqual(s2 []int) bool {
 	if len(s1) != len(s2) {
 		return false
 	}
